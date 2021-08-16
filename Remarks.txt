@@ -1,0 +1,19 @@
+In this project we are going to build a mailing client.
+
+Simple Mail Transfer Protocol - SMTP 
+
+smtp is a protocol that we're going to use to sends mails.
+
+In this script we takes our script and log into an existing 
+mailing account and then use the smtp protocol with the py
+script in order to send mails from that account to other 
+accounts.
+
+*** We cannot send mails directly from py script ,
+    We use py script to login to our existing mail account
+    and then use the smtp protocol to send mails from there.
+** My recommendations:
+   1. use a "damy mail" mail . 
+   2. IN the PASWORD layer!!!
+      encrypted in text file then load that text file
+      decrypt  it and then use that password
